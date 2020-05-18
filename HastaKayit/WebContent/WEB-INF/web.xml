@@ -2,8 +2,12 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
   <display-name>HastaKayit</display-name>
   <welcome-file-list>
+<<<<<<< HEAD
+    <welcome-file>index.jsp</welcome-file>
+=======
 
     <welcome-file>index.jsp</welcome-file>
 
+>>>>>>> c6bd09344be78dae355d562b2e27c5b24ed0d7fe
   </welcome-file-list>
 </web-app>
