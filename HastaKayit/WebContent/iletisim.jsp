@@ -1,12 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@ page language="java" contentType="text/html; charset=ISO-8859-9″ pageEncoding=”ISO-8859-9″ %"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
-
+  <meta charset="UTF-8">
 <head>
-<title>Iletisim</title>
+<title>iLETİŞİM</title>
 <style>
-
 #text {
 width:400px;
 height:400px;
@@ -18,10 +17,8 @@ top: 250px;
 left: 400px;
 background:white;
 margin: auto;
-
  
 }
-
 .image { 
    position: relative; 
    width: 100%; 
@@ -33,12 +30,10 @@ table {
     overflow: auto;
    
 }
-
 table, th, td {
     border: 1px solid black;
     align-content: center;
 }
-
 </style>
 </head>
 
@@ -79,7 +74,7 @@ table, th, td {
     <td>Faks: 0850 444 0123</td>
  </tr>
  <tr>
-    <td>�rnek Mah. Deneme Sk. No:24/8 Ankara </td>
+    <td>Örnek Mah. Deneme Sk. No:24/8 Ankara </td>
  </tr>
 </table>
 </div>
