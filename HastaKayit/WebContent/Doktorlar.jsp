@@ -2,8 +2,9 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
+
 <head>
+<meta charset="UTF-8">
 <title>Doktorlar</title>
 <style>
 #text {
@@ -49,7 +50,7 @@ table, th, td {
 
 <td><b><a href="index.jsp">Anasayfa</a></b></td>
 <td><b><a href="Doktorlar.jsp">Doktorlar</a></b></td>
-<td><b><font><a href="iletisim.jsp">iletisim</a></b></td>
+<td><b><font><a href="iletisim.jsp">İletişim</a></b></td>
 
 </tr>
 </table >
@@ -65,26 +66,25 @@ table, th, td {
 <table align="center">
  <tr >
   <td>Dr.ismi eklenecek</td>
-  <td> Bölum eklenecek</td>
+  <td> Bölüm eklenecek</td>
  </tr>
  <tr>
    <td>Dr.ismi eklenecek</td>
-  <td> Bölum eklenecek</td>
+  <td> Bölüm eklenecek</td>
  </tr>
  <tr>
     <td>Dr.ismi eklenecek</td>
-  <td> Bolum eklenecek</td>
+  <td> Bölüm eklenecek</td>
  </tr>
  <tr>
-    <td>Dr.ismi eklenecek</td>
-  <td> Bölum eklenecek</td>
+   <td>Dr.ismi eklenecek</td>
+  <td> Bölüm eklenecek</td>
  </tr>
- <tr>
-<td colspan="5" height=100%><center><font size=20 color="white">Berhayat Hastanesi</font></center></td>
-</tr>
+
 </table>
 </div>
 
+
 </body>
 
-</html>
+</html> 

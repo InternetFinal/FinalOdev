@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-9″ pageEncoding=”ISO-8859-9″ %"
     pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html >
-<head>
- 	
 
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
 <meta charset="UTF-8">
-<title>Aile Hekimligi Randevu</title>
+
+<title>Aile Sağlığı Merkezi</title>
   
  <style> 
 .sablon{ width:1890px; height:auto; margin:30px auto}
@@ -67,20 +67,20 @@ table, th, td {
 <td colspan="5" height=100%><center><font size=20 color="white">Berhayat Hastanesi</font></center></td>
 </tr>
 </table>
+<table width=100% height=100% border="1" align="center" bgcolor="white">
+
 <table   width=100% height=100% border="1" align="center" bgcolor="white">
 <tr height="5" >
 
 <td><b><a href="index.jsp">Anasayfa</a></b></td>
 <td><b><a href="Doktorlar.jsp">Doktorlar</a></b></td>
-<td><b><font><a href="iletisim.jsp">iletisim</a></b></td>
+<td><b><font><a href="iletisim.jsp">iletişim</a></b></td>
 
 </tr>
 </table >
-<table width=100% height=100% border="1" align="center" bgcolor="white">
-
-<marquee><font style="font-family: times, serif; font-size:14pt; font-style:italic">#BerhayatHastahanesi</font></marquee>
-
-
+<hr />
+  <marquee><font style="font-family: times, serif; font-size:14pt; font-style:italic">#BerhayatHastahanesi</font></marquee>
+<hr />
 
 </table >
 <div class="orta2"><div class="image" >
@@ -92,21 +92,20 @@ table, th, td {
 </div></div>
 <center>
 <h1>Aile Sağlığı Merkezi  Randevu</h1>
-    <table>
+<table>
     <tr>
         <td>T.C.K.N:</td>
-        <td><input type="text" id="TCno" name="txtTC_misafir1" placeholder="" ></td>
+        <td><input type="text" id="txtTC" name="txtTC" placeholder="" ></td>
     </tr>
     <tr>
         <td>ADI SOYADI:</td>
-        <td><input type="text" id="AD" name="txtTAd_misafir1" placeholder="" ></td>
+        <td><input type="text" id="txtAd" name="txtAd" placeholder="" ></td>
     </tr>
 
     <tr>
         <td>TEL:</td>
-        <td><input type="text" id="TEL" name="txtTC_misafir2" placeholder="" ></td>
+        <td><input type="text" id="txtTel" name="txtTel" placeholder="" ></td>
     </tr>
-   
     <tr>
         <td>Doktor Seçimi:</td>
          <td><select name="Dok"  style="min-width:154px;">
@@ -120,30 +119,20 @@ table, th, td {
     </tr>
     <tr>
         
-         <td><button onclick="window.location.href='http://www.mozilla.org/'">Randevu al</button></td>
+         <td align="center" colspan="2"><input type="submit" id="btnGonder" name="btnGonder" value="KAYDET"></td>
     </tr>
     </table>
-    <br>
-    <br>
-    <br>
-
+	<br>
+	<br>
+	<br>
+	
 <h1>Bu kısmada Randevunun doktoru</h1>
 <h1>Bu kısmada Randevunun hangi poliklinikte olduğu </h1>
 </center>
-<br>
-<br>
-</Div>
 <table width=100%  height=100% border="5" align="center" bgcolor="black">
 <tr>
 <td colspan="5" height=100%><center><font size=20 color="white">#EvdeKal</font></center></td>
 </tr>
 </table>
-
-
-
-
-
-
-
 </body>
 </html>

@@ -2,9 +2,10 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
-  <meta charset="UTF-8">
+
 <head>
-<title>iLETİŞİM</title>
+<meta charset="UTF-8">
+<title>İletişim</title>
 <style>
 #text {
 width:400px;
@@ -50,7 +51,7 @@ table, th, td {
 
 <td><b><a href="index.jsp">Anasayfa</a></b></td>
 <td><b><a href="Doktorlar.jsp">Doktorlar</a></b></td>
-<td><b><font><a href="iletisim.jsp">iletisim</a></b></td>
+<td><b><font><a href="iletisim.jsp">iletişim</a></b></td>
 
 </tr>
 </table >
@@ -81,4 +82,4 @@ table, th, td {
 
 </body>
 
-</html>
+</html> 

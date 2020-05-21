@@ -3,9 +3,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<meta charset="UTF-8">
 
-<title>Çacuk Sagligi Randevu</title>
-  <meta charset="UTF-8">
+<title>Çocuk Sağ. ve Has. Randevu</title>
+  
  <style> 
 .sablon{ width:1890px; height:auto; margin:30px auto}
 .logo{ width:100px; height:100px; float:left; background:url(images/logo.jpg)}
@@ -65,20 +66,20 @@ table, th, td {
 <td colspan="5" height=100%><center><font size=20 color="white">Berhayat Hastanesi</font></center></td>
 </tr>
 </table>
+<table width=100% height=100% border="1" align="center" bgcolor="white">
+
 <table   width=100% height=100% border="1" align="center" bgcolor="white">
 <tr height="5" >
 
 <td><b><a href="index.jsp">Anasayfa</a></b></td>
 <td><b><a href="Doktorlar.jsp">Doktorlar</a></b></td>
-<td><b><font><a href="iletisim.jsp">iletisim</a></b></td>
+<td><b><font><a href="iletisim.jsp">iletişim</a></b></td>
 
 </tr>
 </table >
-<table width=100% height=100% border="1" align="center" bgcolor="white">
-<hr> 
-<marquee><font style="font-family: times, serif; font-size:14pt; font-style:italic">#BerhayatHastahanesi</font></marquee>
-<hr>
-
+<hr />
+  <marquee><font style="font-family: times, serif; font-size:14pt; font-style:italic">#BerhayatHastahanesi</font></marquee>
+<hr />
 
 </table >
 <div class="orta2"><div class="image" >
@@ -89,8 +90,9 @@ table, th, td {
  <img src="resimler/Berhayat.jpg" />
 </div></div>
 <center>
-<h1>Aile Sağlığı Merkezi  Randevu</h1>
-    <table>
+
+<h1>Çocuk Sağ. ve Has. Randevu</h1>
+	<table>
     <tr>
         <td>T.C.K.N:</td>
         <td><input type="text" id="txtTC_misafir1" name="txtTC_misafir1" placeholder="" onchange="BosKontrol('txtTC_misafir1');SayiMi('txtTC_misafir1');UzunlukOnBirMi('txtTC_misafir1')"></td>
@@ -119,29 +121,18 @@ table, th, td {
         
          <td><button onclick="window.location.href='http://www.mozilla.org/'">Randevu al</button></td>
     </tr>
-   
-    
     </table>
-    
-    <br>
-    <br>
-    <br>
-
+	<br>
+	<br>
+	<br>
+	
 <h1>Bu kısmada Randevunun doktoru</h1>
-<h1>Bu kısmada Randevunun hangi poliklinikte olduğu </h1>
+<h1>Bu kısmada Randevunun hangi poliklinikte oldugu </h1>
 </center>
-</Div>
-
-
-
 <table width=100%  height=100% border="5" align="center" bgcolor="black">
 <tr>
 <td colspan="5" height=100%><center><font size=20 color="white">#EvdeKal</font></center></td>
 </tr>
 </table>
-
-
-
-
 </body>
 </html>

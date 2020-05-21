@@ -1,9 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-9″ pageEncoding=”ISO-8859-9″ %"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
+<html lang="tr">
+
 <head>
+<meta charset = "UTF-8">	
 <title>#EvdeKal</title>
 <style>
 
@@ -52,13 +53,13 @@ table, th, td {
 
 <td><b><a href="index.jsp">Anasayfa</a></b></td>
 <td><b><a href="Doktorlar.jsp">Doktorlar</a></b></td>
-<td><b><font><a href="iletisim.jsp">İletişim</a></b></td>
+<td><b><font><a href="iletisim.jsp">iletişim</a></b></td>
 
 </tr>
 </table >
 
 <hr />
-<marquee>Berhayat Hastahanesi</marquee>
+<marquee><font style="font-family: times, serif; font-size:14pt; font-style:italic">#BerhayatHastahanesi</font></marquee>
 <hr />
 <div class="image" >
  <img src="resimler/Berhayat.jpg" alt="" height=100% width=100% border="8"/>
@@ -78,7 +79,7 @@ table, th, td {
   </td>
  </tr>
  <tr >
-  <td>Aile Hekimligi</td>
+  <td>Aile Hekimliği</td>
   <td><h5><a href= "AileHekim.jsp">Randevu Al</a></h5></td>
  </tr>
  <tr>
@@ -105,7 +106,6 @@ table, th, td {
 </div>
 
 </table>
-
 
 </body>
 </html>
