@@ -106,7 +106,18 @@ table, th, td {
     </tr>
     <tr>
         <td>Doktor Seçimi:</td>
-         <td><input type="text" id="txtAd_misafir2" name="txtTAd_misafir2" placeholder="" onchange="BosKontrol('txtAd_misafir2')"></td>
+         <td><select name="Dok"  style="min-width:154px;">
+        
+<option name="doktor1" value="opt1">Ali vefa</option>
+<option name="doktor2" value="opt2">Feyzullah Durmuş</option>
+<option name="doktor3" value="opt3">Hüsamettin Erdoğan</option>
+<option name="doktor4" value="opt4">Mert Kızılkaya</option>
+</select>
+</td>
+    </tr>
+    <tr>
+        
+         <td align="center" colspan="2"><input type="submit" id="btnGonder" name="btnGonder" value="Randevu Al"></td>
     </tr>
     </table>
     <br>

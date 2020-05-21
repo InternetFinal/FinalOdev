@@ -95,20 +95,32 @@ table, th, td {
     <table>
     <tr>
         <td>T.C.K.N:</td>
-        <td><input type="text" id="txtTC_misafir1" name="txtTC_misafir1" placeholder="" onchange="BosKontrol('txtTC_misafir1');SayiMi('txtTC_misafir1');UzunlukOnBirMi('txtTC_misafir1')"></td>
+        <td><input type="text" id="TCno" name="txtTC_misafir1" placeholder="" ></td>
     </tr>
     <tr>
         <td>ADI SOYADI:</td>
-        <td><input type="text" id="txtAd_misafir1" name="txtTAd_misafir1" placeholder="" onchange="BosKontrol('txtAd_misafir1');"></td>
+        <td><input type="text" id="AD" name="txtTAd_misafir1" placeholder="" ></td>
     </tr>
 
     <tr>
         <td>TEL:</td>
-        <td><input type="text" id="txtTC_misafir2" name="txtTC_misafir2" placeholder="" onchange="BosKontrol('txtTC_misafir2');SayiMi('txtTC_misafir2');UzunlukOnBirMi('txtTC_misafir2')"></td>
+        <td><input type="text" id="TEL" name="txtTC_misafir2" placeholder="" ></td>
     </tr>
+   
     <tr>
         <td>Doktor Seçimi:</td>
-         <td><input type="text" id="txtAd_misafir2" name="txtTAd_misafir2" placeholder="" onchange="BosKontrol('txtAd_misafir2')"></td>
+         <td><select name="Dok"  style="min-width:154px;">
+        
+<option name="doktor1" value="opt1">Ali vefa</option>
+<option name="doktor2" value="opt2">Feyzullah Durmuş</option>
+<option name="doktor3" value="opt3">Hüsamettin Erdoğan</option>
+<option name="doktor4" value="opt4">Mert Kızılkaya</option>
+</select>
+</td>
+    </tr>
+    <tr>
+        
+         <td><button onclick="window.location.href='http://www.mozilla.org/'">Randevu al</button></td>
     </tr>
     </table>
     <br>
