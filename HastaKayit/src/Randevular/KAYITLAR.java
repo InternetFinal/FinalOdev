@@ -8,8 +8,8 @@ public class KAYITLAR {
 	private String Tel;
 	private int DoktorID;
 	private int saat;
-	//void
-	public KAYITLAR(String TCno,String HastaAd,String Tel,int DoktorID,int saat)
+	
+   public  KAYITLAR(String TCno,String HastaAd,String Tel,int DoktorID,int saat)
 	{
 	   this.TCno=TCno;
 	   this.HastaAd=HastaAd;
@@ -19,13 +19,13 @@ public class KAYITLAR {
 	  
 	   
 	}
-	/*public KAYITLAR (HttpServletRequest request) {
+	public KAYITLAR (HttpServletRequest request) {
         this.TCno=request.getParameter("txtTC");
         this.HastaAd=request.getParameter("txtAd");
         this.Tel=request.getParameter("txtTel");
         
       
-        }*/
+        }
 
        
     

@@ -82,6 +82,7 @@ table, th, td {
 <hr />
 
 </table >
+<form action="SevrletHastane" method="post">
 <div class="orta2"><div class="image" >
  <img src="resimler/Berhayat.jpg" />
 </div></div>
@@ -90,20 +91,20 @@ table, th, td {
  <img src="resimler/Berhayat.jpg" />
 </div></div>
 <center>
-<h1>Dermatoloji  Randevu</h1>
-	<table>
+<h1>Dermatoloji Randevu</h1>
+<table>
     <tr>
         <td>T.C.K.N:</td>
-        <td><input type="text" id="txtTC_misafir1" name="txtTC_misafir1" placeholder="" onchange="BosKontrol('txtTC_misafir1');SayiMi('txtTC_misafir1');UzunlukOnBirMi('txtTC_misafir1')"></td>
+        <td><input type="text" id="txtTC" name="txtTC" placeholder="" ></td>
     </tr>
     <tr>
         <td>ADI SOYADI:</td>
-        <td><input type="text" id="txtAd_misafir1" name="txtTAd_misafir1" placeholder="" onchange="BosKontrol('txtAd_misafir1');"></td>
+        <td><input type="text" id="txtAd" name="txtAd" placeholder="" ></td>
     </tr>
 
     <tr>
         <td>TEL:</td>
-        <td><input type="text" id="txtTC_misafir2" name="txtTC_misafir2" placeholder="" onchange="BosKontrol('txtTC_misafir2');SayiMi('txtTC_misafir2');UzunlukOnBirMi('txtTC_misafir2')"></td>
+        <td><input type="text" id="txtTel" name="txtTel" placeholder="" ></td>
     </tr>
     <tr>
         <td>Doktor Seçimi:</td>
@@ -118,9 +119,10 @@ table, th, td {
     </tr>
     <tr>
         
-         <td><button onclick="window.location.href='http://www.mozilla.org/'">Randevu al</button></td>
+         <td align="center" colspan="2"><input type="submit" id="btnGonder" name="btnGonder" value="KAYDET"></td>
     </tr>
     </table>
+    </form>
 	<br>
 	<br>
 	<br>

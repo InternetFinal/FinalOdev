@@ -57,6 +57,7 @@ table, th, td {
     border: 1px solid black;
      align-content: center;
 }
+
 </style>
 </head>
 
@@ -82,7 +83,9 @@ table, th, td {
   <marquee><font style="font-family: times, serif; font-size:14pt; font-style:italic">#BerhayatHastahanesi</font></marquee>
 <hr />
 
+
 </table >
+<form action="SevrletHastane" method="post">
 <div class="orta2"><div class="image" >
  <img src="resimler/Berhayat.jpg" />
 </div></div>
@@ -122,6 +125,7 @@ table, th, td {
          <td align="center" colspan="2"><input type="submit" id="btnGonder" name="btnGonder" value="KAYDET"></td>
     </tr>
     </table>
+    </form>
 	<br>
 	<br>
 	<br>
