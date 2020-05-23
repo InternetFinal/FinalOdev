@@ -110,10 +110,13 @@ table, th, td {
         <td>Doktor Seçimi:</td>
          <td><select name="Dok"  style="min-width:154px;">
         
-<option name="doktor1" value="opt1">Ali vefa</option>
-<option name="doktor2" value="opt2">Feyzullah Durmuş</option>
-<option name="doktor3" value="opt3">Hüsamettin Erdoğan</option>
-<option name="doktor4" value="opt4">Mert Kızılkaya</option>
+<option name="doktor1" value="1">Ali Vefa</option>
+<option name="doktor2" value="2">Feyzullah Durmuş</option>
+<option name="doktor3" value="3">Mert Kızılkaya</option>
+<option name="doktor4" value="4">Hasan Erdoğan</option>
+<option name="doktor4" value="5">Fevziye Durmuş</option>
+<option name="doktor4" value="6">Hüseyin Korkut</option>
+<option name="doktor4" value="7">Ahmet Serkan Fidancı</option>
 </select>
 </td>
     </tr>

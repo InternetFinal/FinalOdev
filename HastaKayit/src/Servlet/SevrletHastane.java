@@ -52,48 +52,48 @@ public class SevrletHastane extends HttpServlet {
 	     String TCno = request.getParameter("txtTC");
 	     String ad = request.getParameter("txtAd");
 	     String tel = request.getParameter("txtTel");
+	     int Dok = (Integer.parseInt(request.getParameter("Dok")));
 	     String connUrl= "jdbc:sqlserver://localhost:1433;databaseName=Hastane;integratedSecurity=true;";
 	 
-	     String pattern = "MMddyyyy";
-	     SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
-	     String date = simpleDateFormat.format(new Date());
+	    
 	     String pattern2 = "kk";
 	     SimpleDateFormat simpleDate2Format = new SimpleDateFormat(pattern2);
 	     String saat = simpleDate2Format.format(new Date());
-	     int a = 18;
+	     
 	     try {
-	    	
+	    	int a = 18;
 			Connection conn = DriverManager.getConnection(connUrl);
 			PreparedStatement pst2 = conn.prepareStatement("INSERT INTO KAYITLAR VALUES (?,?,?,?,?,?)");
-			    pst2.setString(1, TCno);
+			//PreparedStatement pst4 = conn.prepareStatement("UPDATE DoktorRandevu SET Dolu=1")  ; 
+			pst2.setString(1, TCno);
 	            pst2.setString(2, ad);
-	            pst2.setString(3, tel);
+	            pst2.setInt(3,Dok);
 	            pst2.setInt(4,10);
-	            pst2.setInt(5,0);
+	            pst2.setString(5, tel);
 	            pst2.setString(6,"Bolum");
-	            
-	            pst2.execute(); 
+	           
+	           
+	            pst2.execute();
+	          //  pst4.execute();
 	            if(Integer.parseInt(saat)>a) {
 	   	         
 	   	      System.out.print("Kayýt Baþarýlý");
+	   	     
 	   	     }
 	   	        else
 	   	     {
-	   	         Connection conn2 = DriverManager.getConnection(connUrl);
-	   	         PreparedStatement pst3 = conn2.prepareStatement("DELETE FROM KAYITLAR");
+	   	         
+	   	         PreparedStatement pst3 = conn.prepareStatement("DELETE FROM KAYITLAR");
 	   	          pst3.execute();  
 	   	       System.out.print("Bu saate sisteme kayýt Yapýlamaz");
 	   	     }
 	            
-	            
+	      
 	            
 		} catch (SQLException e) {
 			
 			e.printStackTrace();
 		}
-	    
-	     
-	     
 	
 	}
 
