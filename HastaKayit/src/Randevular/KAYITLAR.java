@@ -1,5 +1,5 @@
 package Randevular;
-
+///DENEME ÝÇÝNDÝR
 import javax.servlet.http.HttpServletRequest;
 
 public class KAYITLAR {

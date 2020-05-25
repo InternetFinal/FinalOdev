@@ -8,8 +8,8 @@
 <title>İletişim</title>
 <style>
 #text {
-width:400px;
-height:400px;
+width:600px;
+height:300px;
 border: 8px solid;
 font-size: 40px;
 overflow: auto;

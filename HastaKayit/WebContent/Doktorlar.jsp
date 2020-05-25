@@ -8,7 +8,7 @@
 <title>Doktorlar</title>
 <style>
 #text {
-width:400px;
+width:600px;
 height:400px;
 border: 8px solid;
 font-size: 40px;
@@ -65,20 +65,32 @@ table, th, td {
  <div id='text'>
 <table align="center">
  <tr >
-  <td>Dr.ismi eklenecek</td>
-  <td> Bölüm eklenecek</td>
+  <td>Dr.Ali Vefa</td>
+  <td> Aile Hekimliği</td>
  </tr>
  <tr>
-   <td>Dr.ismi eklenecek</td>
-  <td> Bölüm eklenecek</td>
+   <td>Dr.Feyzullah Durmuş</td>
+  <td> Aile Hekimliği</td>
  </tr>
  <tr>
-    <td>Dr.ismi eklenecek</td>
-  <td> Bölüm eklenecek</td>
+    <td>Dr.Hüsamettin Erdoğan</td>
+  <td> Çocuk Hastalıkları</td>
  </tr>
  <tr>
-   <td>Dr.ismi eklenecek</td>
-  <td> Bölüm eklenecek</td>
+   <td>Dr.Mert Kızılkaya</td>
+  <td> Çocuk Hastalıkları</td>
+ </tr>
+ <tr>
+   <td>Dr.Fevziye Durmuş</td>
+  <td> Dermatoloji</td>
+ </tr>
+ <tr>
+   <td>Dr.Hüseyin Korkut</td>
+  <td> Dermatoloji</td>
+ </tr>
+  <tr>
+   <td>Dr.Ahmet Serkan Fidancı</td>
+  <td> Dermatoloji</td>
  </tr>
 
 </table>

@@ -2,8 +2,23 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
   <display-name>HastaKayit</display-name>
   <welcome-file-list>
-
     <welcome-file>index.jsp</welcome-file>
-
+    
   </welcome-file-list>
+  <env-entry>
+  
+  	<env-entry-name>connURL</env-entry-name>
+    
+<env-entry-type>java.lang.String</env-entry-type>
+
+<env-entry-value>jdbc:sqlserver://localhost:1433;databaseName=Hastane;integratedSecurity=true</env-entry-value>
+  </env-entry>
+  <servlet>
+  <servlet-name>ServerConfgi</servlet-name>
+  <servlet-class>ServerConfgi</servlet-class>
+  <init-param>
+  <param-name>yazdır</param-name>
+  <param-value>KAYDEDİLDİ...</param-value>
+  </init-param>
+  </servlet>
 </web-app>

@@ -1,5 +1,5 @@
 package Randevular;
-
+///DENEME ÝÇÝNDÝR
 public class DoktarRandevu {
 	 private int DoktorID;
 	 private int Dolu;

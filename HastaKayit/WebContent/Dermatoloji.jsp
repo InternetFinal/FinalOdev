@@ -6,7 +6,9 @@
 <meta charset="UTF-8">
 
 <title>Dermatoloji Randevu</title>
-  
+  <script type="text/javascript">
+    <%@ include file=".\WEB-INF\js\Validation.js" %>
+</script>
  <style> 
 .sablon{ width:1890px; height:auto; margin:30px auto}
 .logo{ width:100px; height:100px; float:left; background:url(images/logo.jpg)}
@@ -82,6 +84,7 @@ table, th, td {
 <hr />
 
 </table >
+<!-- Servlete post edebilmek için Form oluşturuldu.  -->
 <form action="SevrletHastane" method="post">
 <div class="orta2"><div class="image" >
  <img src="resimler/Berhayat.jpg" />
@@ -93,45 +96,50 @@ table, th, td {
 <center>
 <h1>Dermatoloji Randevu</h1>
 <table>
-    <tr>
+   <tr>
         <td>T.C.K.N:</td>
-        <td><input type="text" id="txtTC" name="txtTC" placeholder="" ></td>
+        <td><input type="text" id="txtTC" name="txtTC" placeholder="Tc Kimlik numarasnız" onchange="Bos('txtTC');Sayi('txtTC');Uzunluk('txtTC')" ></td>
     </tr>
     <tr>
-        <td>ADI SOYADI:</td>
-        <td><input type="text" id="txtAd" name="txtAd" placeholder="" ></td>
+      <td>ADI SOYADI:</td>
+        <td><input type="text" id="txtAd" name="txtAd" placeholder="Adınız Soyadınız" onchange="Bos('txtAd')" ></td>
     </tr>
 
     <tr>
         <td>TEL:</td>
-        <td><input type="text" id="txtTel" name="txtTel" placeholder="" ></td>
+        <td><input type="text" id="txtTel" name="txtTel" placeholder="Telefon Numaranız" onchange="Bos('txtTel');Sayi('txtTel');Uzunluk('txtTel')"></td>
     </tr>
     <tr>
         <td>Doktor Seçimi:</td>
-         <td><select name="Dok"  style="min-width:154px;">
+         <td><select name="Dok"  style="min-width:154px; onchange="BosKontrol('txtTel')">
         
-<option name="doktor1" value="1">Ali Vefa</option>
-<option name="doktor2" value="2">Feyzullah Durmuş</option>
-<option name="doktor3" value="3">Mert Kızılkaya</option>
-<option name="doktor4" value="4">Hasan Erdoğan</option>
+<!-- Her bölüm doktoru ayrıdır.  -->
 <option name="doktor4" value="5">Fevziye Durmuş</option>
-<option name="doktor4" value="6">Hüseyin Korkut</option>
-<option name="doktor4" value="7">Ahmet Serkan Fidancı</option>
+<option name="doktor5" value="6">Hüseyin Korkut</option>
+<option name="doktor6" value="7">Ahmet Serkan Fidancı</option>
 </select>
 </td>
     </tr>
     <tr>
         
-         <td align="center" colspan="2"><input type="submit" id="btnGonder" name="btnGonder" value="KAYDET"></td>
+         <tr>
+        <td align="center" colspan="2"><input type="button" id="btnkon" name="btnkon" value="Kontor Et" onclick="kontrol('txtTC');kontrol('txtTel')" ></td>
+       <!-- Yukarıdaki button kontrol butonudur  -->
+
+    </tr>
+      <tr>
+    <td align="center" colspan="2"><input type="submit" id="btnGonder" name="btnGonder" value="KAYDET" disabled ></td>
+     </tr>
     </tr>
     </table>
     </form>
 	<br>
 	<br>
 	<br>
-	
-<h1>Bu kısmada Randevunun doktoru</h1>
-<h1>Bu kısmada Randevunun hangi poliklinikte oldugu </h1>
+	<!-- Açıklama...  -->
+	<h1>Tc ve Tel 11 Haneli Olmalıdır ve Adı Soyadı Kısımı Boş Geçilemez Koşulları Sağladığınız Taktirde Kontrol Et Butonuna Basınız </h1>
+    <h1>Eğer Doğru Doldurduysanız Kaydet Butonu Aktif Olur</h1>
+
 </center>
 <table width=100%  height=100% border="5" align="center" bgcolor="black">
 <tr>
