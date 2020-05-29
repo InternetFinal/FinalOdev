@@ -123,7 +123,7 @@ table, th, td {
     <tr>
         
          <tr>
-        <td align="center" colspan="2"><input type="button" id="btnkon" name="btnkon" value="Kontor Et" onclick="kontrol('txtTC');kontrol('txtTel')" ></td>
+        <td align="center" colspan="2"><input type="button" id="btnkon" name="btnkon" value="Kontrol Et" onclick="kontrol('txtTC');kontrol('txtTel')" ></td>
        <!-- Yukarıdaki button kontrol butonudur  -->
 
     </tr>
